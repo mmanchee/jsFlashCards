@@ -3,7 +3,9 @@ $(document).ready(function() {
     $("#javascript-word").toggle();
     $("#javascript-def").toggle();
   });
+});
 
+$(document).ready(function() {
   $("#operator").click(function() {
     $("#operator-word").toggle();
     $("#operator-def").toggle();
